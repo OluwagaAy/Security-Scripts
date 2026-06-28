@@ -1,0 +1,23 @@
+# Sample IOCs for testing
+# Add one IOC per line - supports hashes, IPs, domains, and filenames
+
+# Known Malicious Hashes (SHA256)
+a3d5e8f9c2b1a4d6e7f80123456789abcdef0123456789abcdef0123456789abc
+b4c6d7e8f9012345a6789bcdef0123456789abcdef0123456789abcdef0123456
+c5d7e8f9012345a6789bcdef0123456789abcdef0123456789abcdef01234567d
+
+# Malicious IPs
+185.234.56.78
+91.203.164.45
+45.142.214.89
+
+# Malicious Domains
+malware-c2.example.com
+phishing-site.evil
+bad-actor.xyz
+
+# Suspicious Filenames
+ Invoice_Payment_Urgent.pdf.exe
+trojan.exe
+payload.ps1
+reverse_shell.py
